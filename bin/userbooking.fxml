@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="744.0" style="-fx-background-color: #fbe215;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="679.0" layoutY="41.0">
+         <image>
+            <Image url="@../../../Downloads/aaaa%20logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="29.0" layoutY="25.0" text="BOOKING" textFill="#1074bd">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="50.0" />
+         </font>
+      </Label>
+      <TableView layoutX="32.0" layoutY="142.0" prefHeight="410.0" prefWidth="686.0">
+         <columns>
+            <TableColumn prefWidth="114.33" text="Booking ID" />
+            <TableColumn prefWidth="114.33" text="Passenger ID" />
+            <TableColumn prefWidth="114.33" text="Flight ID" />
+            <TableColumn prefWidth="114.33" text="Seat ID" />
+            <TableColumn prefWidth="114.33" text="Amount" />
+            <TableColumn prefWidth="114.33" text="Booking Date" />
+         </columns>
+      </TableView>
+      <TextField id="fnameTextfield" layoutX="31.0" layoutY="101.0" prefHeight="28.0" prefWidth="492.0" promptText="Search" style="-fx-background-radius: 50;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <Button id="createButton" layoutX="533.0" layoutY="104.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: #1074bd; -fx-background-radius: 50;" text="SEARCH" textFill="#fbe215">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button id="createButton" layoutX="606.0" layoutY="104.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="105.0" style="-fx-background-color: #1074bd; -fx-background-radius: 50;" text="ADD BOOKING" textFill="#fbe215">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
